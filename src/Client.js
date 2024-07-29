@@ -337,6 +337,7 @@ class Client extends EventEmitter {
             timeout: 0,
             referer: 'https://whatsapp.com/'
         });
+        // await page.waitForNavigation({ waitUntil: 'load' });
 
         await this.inject();
 
